@@ -7,6 +7,8 @@ export default function makeRefreshAccessToken({ jwt }) {
 
         const user = jwt.verify(refreshToken, process.env.REFRESH_TOKEN);
 
+        if(!user) { throw new Error("Refresh token is invalid.")}
+
         const accessToken = jwt.sign({ id: user.id }, process.env.ACCESS_TOKEN, { expiresIn: '15m' })
 
         return accessToken
