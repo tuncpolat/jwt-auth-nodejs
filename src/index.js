@@ -8,7 +8,7 @@ const port = process.env.PORT || 5000;
 dotenv.config()
 // controllers
 import { postLoginUser, postRegisterUser } from './user/controllers'
-import { getRefreshAccessToken, getConfirmationEmailToken, postLogout, postForgotPassword, postChangePassword} from './auth/controllers'
+import { getRefreshAccessToken, getConfirmationEmailToken, postLogout, postForgotPassword, postChangePassword } from './auth/controllers'
 
 // helpers
 import makeCallback from './helpers/express-callback'

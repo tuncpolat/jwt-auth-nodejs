@@ -9,7 +9,7 @@ import {
     refreshAccessToken,
     verifyEmailToken,
     sendEmailToChangePassword,
-    changePassword 
+    changePassword
 } from '../use-cases'
 
 const getRefreshAccessToken = makeRefreshAccessToken({ refreshAccessToken })
@@ -28,4 +28,4 @@ const authController = Object.freeze({
 })
 
 export default authController
-export { getRefreshAccessToken, getConfirmationEmailToken, postLogout, postForgotPassword, postChangePassword}
+export { getRefreshAccessToken, getConfirmationEmailToken, postLogout, postForgotPassword, postChangePassword }
