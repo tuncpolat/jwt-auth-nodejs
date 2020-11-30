@@ -12,6 +12,7 @@ const handleComparePassport = makeHandleComparePassport({ bycrypt })
 const registerUser = makeRegisterUser({ usersDb, handleHashPassport, sendEmailVerification })
 const loginUser = makeLoginUser({ usersDb, handleComparePassport })
 
+
 const userservice = Object.freeze({
     registerUser,
     loginUser

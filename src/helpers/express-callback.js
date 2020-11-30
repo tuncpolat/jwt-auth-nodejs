@@ -27,7 +27,6 @@ module.exports = function makeExpressCallback(controller) {
                 }
                 if (httpResponse.cookies) {
                     var { name, value } = httpResponse.cookies
-                    console.log("COOKIES", name, value)
                     res.cookie(name, value, { httpOnly: true, secure: true, sameSite: 'None' })
                 }
                 

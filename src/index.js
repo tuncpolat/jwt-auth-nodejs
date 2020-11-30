@@ -8,7 +8,7 @@ const port = process.env.PORT || 5000;
 dotenv.config()
 // controllers
 import { postLoginUser, postRegisterUser } from './user/controllers'
-import { getRefreshAccessToken, getConfirmationEmailToken, postLogout } from './auth/controllers'
+import { getRefreshAccessToken, getConfirmationEmailToken, postLogout, postForgotPassword, postChangePassword} from './auth/controllers'
 
 // helpers
 import makeCallback from './helpers/express-callback'
@@ -37,10 +37,13 @@ app.get("/ping", (req, res) => {
 app.post('/api/refresh_token', makeCallback(getRefreshAccessToken))
 app.get('/api/confirmation/:emailtoken', makeCallback(getConfirmationEmailToken))
 app.post('/api/logout', makeCallback(postLogout))
+app.post('/api/forgot-password', makeCallback(postForgotPassword))
+app.post('/api/change-password/:passwordtoken', makeCallback(postChangePassword))
 
 // user
 app.post('/api/register', makeCallback(postRegisterUser))
 app.post('/api/login', makeCallback(postLoginUser))
+
 
 app.listen(port, () => console.log(`Listening on port ${port}`))
 
