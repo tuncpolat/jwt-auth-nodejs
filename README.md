@@ -2,7 +2,7 @@ JWT Access/Refresh Token Authentication and Authorization REST API in Nodejs
 ============
 
 This is a node.js (express) JWT authorization and authentication REST API inspired by this [blogpost by Hasura](https://hasura.io/blog/best-practices-of-using-jwt-with-graphql/)
-Read my blog post to get indepth inside
+Read my blog post to get in-depth inside.
 
 ## Features
 - Register user
@@ -12,7 +12,7 @@ Read my blog post to get indepth inside
 - Send password forgot instruction
 
 ## Front-End
-I have also developed a React front-end. Check it out [here](https://www.simplweb.ch/): 
+I have also developed a React front-end. Check it out [here](https://www.simplweb.ch/)
 
 ---
 
@@ -26,15 +26,13 @@ After you clone this repo to your desktop, go to its root directory and run `npm
 
 Once the dependencies are installed, you can run  `npm run dev` to start the application. The server will run on port 5000.
 
-I suggest to also clone the front-end repo and start testing it out or you can just play with in Postman.
+I suggest also clone the front-end repo and start testing it out or you can just play with Postman.
 
 ---
 
 ## Support
 
-Whether you use this project, have learned something from it, or just like it, please consider supporting it with including the blog post above into your blog/website. 
-
----
+Whether you use this project, have learned something from it, or just like it, please consider supporting it by including the blog post above into your blog/website.
 
 ---
 
