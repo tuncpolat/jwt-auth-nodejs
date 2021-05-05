@@ -43,6 +43,8 @@ If you have a question don't hesitate to ask me... in that sense let's connect ð
 [<img align="left" alt="TunÃ§ Polat | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 [<img align="left" alt="Simplweb | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 
+<br/>
+
 ---
 
 ## License
