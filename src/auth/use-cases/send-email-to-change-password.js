@@ -8,7 +8,7 @@ export default function makeSendEmailToChangePassword({ usersDb, nodemailer, jwt
 
             // send to link to change password
             const passwordToken = jwt.sign({ email }, process.env.PASSWORD_TOKEN, { expiresIn: '1d' })
-            const url = `http://localhost:3000/change-password/${passwordToken}`;
+            const url = `http://localhost:3000/password-change/${passwordToken}`;
 
             // create reusable transporter object using the default SMTP transport
             let transporter = nodemailer.createTransport({

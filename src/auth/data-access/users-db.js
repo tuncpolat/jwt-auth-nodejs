@@ -9,7 +9,7 @@ export default function MakeUsersDb({ makeDb }) {
 
   async function verifyEmail({ email }) {
     const db = await makeDb()
-    const { result } = await db.collection('users')
+    const result = await db.collection('users')
       .findOneAndUpdate({ email }, { $set: { confirmedEmail: true } });
     if (result.ok !== 1) return { success: false }
     return { success: true }

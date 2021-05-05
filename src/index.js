@@ -1,4 +1,3 @@
-// FRAMEWORK LAYER (Nr. 4)
 import express from 'express'
 import bodyParser from 'body-parser'
 import cookieParser from 'cookie-parser'
@@ -7,12 +6,11 @@ import cors from 'cors'
 const port = process.env.PORT || 5000;
 dotenv.config()
 // controllers
-import { postLoginUser, postRegisterUser } from './user/controllers'
+import { postLoginUser, postRegisterUser, getUserData } from './user/controllers'
 import { getRefreshAccessToken, getConfirmationEmailToken, postLogout, postForgotPassword, postChangePassword } from './auth/controllers'
 
 // helpers
 import makeCallback from './helpers/express-callback'
-
 
 const app = express()
 
@@ -43,6 +41,8 @@ app.post('/api/change-password/:passwordtoken', makeCallback(postChangePassword)
 // user
 app.post('/api/register', makeCallback(postRegisterUser))
 app.post('/api/login', makeCallback(postLoginUser))
+app.get('/api/user', makeCallback(getUserData)) // test authorization
+
 
 
 app.listen(port, () => console.log(`Listening on port ${port}`))

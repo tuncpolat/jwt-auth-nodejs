@@ -19,7 +19,7 @@ export default function makePostRegisterUser({ registerUser, signupAccessToken }
         id: user.id,
         type: 'user'
       })
-      
+
       return {
         headers: {
           'Content-Type': 'application/json',
@@ -31,7 +31,7 @@ export default function makePostRegisterUser({ registerUser, signupAccessToken }
         body: { user }
       }
     } catch (e) {
-      
+
       // TODO: Error logging
       console.log(e)
 
@@ -40,9 +40,7 @@ export default function makePostRegisterUser({ registerUser, signupAccessToken }
           'Content-Type': 'application/json'
         },
         statusCode: 400,
-        body: {
-          error: e.message
-        }
+        body: e.message
       }
     }
   }

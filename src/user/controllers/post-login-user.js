@@ -39,9 +39,7 @@ export default function makePostLoginUser({ loginUser, loginAccessToken }) {
           'Content-Type': 'application/json'
         },
         statusCode: 400,
-        body: {
-          error: e.message
-        }
+        body: e.message
       }
     }
   }

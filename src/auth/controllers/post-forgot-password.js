@@ -16,16 +16,14 @@ export default function makePostForgotPassword({ sendEmailToChangePassword }) {
             }
         } catch (e) {
             // TODO: Error logging
-            console.log("ERROR L", e)
+            console.log( e)
 
             return {
                 headers: {
                     'Content-Type': 'application/json'
                 },
                 statusCode: 400,
-                body: {
-                    error: e.message
-                }
+                body: e.message
             }
         }
     }

@@ -4,8 +4,6 @@ export default function makePostChangePassword({ changePassword }) {
             const { newpassword } = httpRequest.body
             const { passwordtoken } = httpRequest.params
 
-            console.log(newpassword, passwordtoken)
-
             const success = await changePassword(passwordtoken, newpassword)
 
             return {
@@ -16,7 +14,7 @@ export default function makePostChangePassword({ changePassword }) {
                 body: success
             }
         } catch (e) {
-            // TODO: Error logging
+            
             console.log(e)
 
             return {
