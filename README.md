@@ -38,13 +38,17 @@ I suggest also clone the front-end repo and start testing it out or you can just
 Whether you use this project, have learned something from it, or just like it, please consider supporting it by including the blog post above into your blog/website.
 If you have a question don't hesitate to ask me... in that sense let's connect 🤜🤛
 
-[<img align="left" alt="www.simplweb.ch" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][https://www.simplweb.ch]
-[<img align="left" alt="Tunç Polat | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][https://twitter.com/TunPolat9]
-[<img align="left" alt="Tunç Polat | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][https://www.linkedin.com/in/tun%C3%A7-polat-b8203a116/]
-[<img align="left" alt="Simplweb | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][https://www.instagram.com/simplwebbasel/]
+[<img align="left" alt="www.simplweb.ch" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
+[<img align="left" alt="Tunç Polat | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
+[<img align="left" alt="Tunç Polat | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+[<img align="left" alt="Simplweb | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 
 ---
 
 ## License
 This project is licensed under the terms of the **MIT** license.
 
+[website]: https://www.simplweb.ch
+[twitter]: https://twitter.com/TunPolat9
+[instagram]: https://www.instagram.com/simplwebbasel/
+[linkedin]: https://www.linkedin.com/in/tun%C3%A7-polat-b8203a116/
