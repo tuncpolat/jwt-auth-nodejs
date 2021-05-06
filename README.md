@@ -8,7 +8,7 @@ This is a node.js (express) JWT authorization and authentication REST API inspir
 ## Features
 - Register user
 - Login user
-- Access & Refresh
+- Send Access & Refresh Token
 - Send email verification with [nodemailer](https://nodemailer.com/usage/)
 - Send password forgot instruction
 
@@ -29,7 +29,7 @@ After you clone this repo to your desktop, go to its root directory and run `npm
 
 Once the dependencies are installed, you can run  `npm run dev` to start the application. The server will run on port 5000.
 
-I suggest also clone the front-end repo and start testing it out or you can just play with Postman.
+Also, I suggest to clone the front-end repo and start testing it out or simply play with Postman.
 
 ---
 
