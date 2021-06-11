@@ -1,14 +1,14 @@
 export default function makePostRegisterUser({ registerUser, signupAccessToken }) {
   return async function postRegisterUser(httpRequest) {
     try {
-      const { source = {}, ...userInfo } = httpRequest.body
+      const { source = {}, ...userInfo } = httpRequest.body // email and password
       source.ip = httpRequest.ip
       source.browser = httpRequest.headers['User-Agent']
       if (httpRequest.headers['Referer']) {
         source.referrer = httpRequest.headers['Referer']
       }
 
-      // registeruser comes from use-cases (inner layer)
+      // register user comes from use-cases (inner layer)
       const user = await registerUser({
         ...userInfo,
         source

@@ -1,35 +1,32 @@
-JWT Access/Refresh Token Authentication and Authorization REST API in Nodejs
-============
+# User Authentification and Authorization with JWT (Access and Refresh Token) in Nodejs, Express and MongoDB.
 
-This is a node.js (express) JWT authorization and authentication REST API inspired by this [blogpost by Hasura](https://hasura.io/blog/best-practices-of-using-jwt-with-graphql/).<br/>Read my blog post to get in-depth inside.
+This is a node.js (express) JWT authorization and authentication REST API inspired by this [blogpost by Hasura](https://hasura.io/blog/best-practices-of-using-jwt-with-graphql/).<br/>In my blog post I try to explain how the whole JWT authentication and authorization flow with access and refresh tokens works in a MERN Stack. You can read it [here](https://simplweb.ch/en/blog/user-authentification-and-authorization-with-jwt-access-and-refresh-token-in-nodejs-react-express-and-mongo-db)
 
 ---
 
 ## Features
+
 - Register user
 - Login user
-- Send Access & Refresh Token
-- Send email verification with [nodemailer](https://nodemailer.com/usage/)
-- Send password forgot instruction
+- Access & Refresh tokens
+- Email verification with [nodemailer](https://nodemailer.com/usage/)
+- Password reset
 
 ---
 
 ## Front-End
+
 I have also developed a React front-end. Check it out [here](https://www.simplweb.ch/)
 
 ---
 
-## Setup
-Clone this repo to your desktop and run `npm install` to install all the dependencies.
+## Setup & Usage
 
----
-
-## Usage
 After you clone this repo to your desktop, go to its root directory and run `npm install` to install its dependencies.
 
-Once the dependencies are installed, you can run  `npm run dev` to start the application. The server will run on port 5000.
+Once the dependencies are installed, you can run `npm run dev` to start the application. The server will run on port 5000.
 
-Also, I suggest to clone the front-end repo and start testing it out or simply play with Postman.
+Also, I suggest to clone the front-end repo and start testing it out or just use it with Postman.
 
 ---
 
@@ -48,6 +45,7 @@ If you have a question don't hesitate to ask me... in that sense let's connect ð
 ---
 
 ## License
+
 This project is licensed under the terms of the **MIT** license.
 
 [website]: https://www.simplweb.ch

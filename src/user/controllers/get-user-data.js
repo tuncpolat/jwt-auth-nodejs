@@ -24,7 +24,7 @@ export default function makeGetUserData({ verifyAccessToken, listUserData }) {
           headers: {
             'Content-Type': 'application/json'
           },
-          statusCode: 400,
+          statusCode: 401,
           body: e.message
         }
       }
