@@ -16,7 +16,7 @@ This is a node.js (express) JWT authorization and authentication REST API inspir
 
 ## Front-End
 
-I have also developed a React front-end. Check it out [here](https://www.simplweb.ch/)
+I have also developed a React front-end. Check it out [here]([https://github.com/tuncpolat/jwt-auth-react)
 
 ---
 
@@ -49,6 +49,5 @@ If you have a question don't hesitate to ask me... in that sense let's connect ð
 This project is licensed under the terms of the **MIT** license.
 
 [website]: https://www.simplweb.ch
-[twitter]: https://twitter.com/TunPolat9
-[instagram]: https://www.instagram.com/simplwebbasel/
+[personal website]: https://www.tuncpolat.dev
 [linkedin]: https://www.linkedin.com/in/tun%C3%A7-polat-b8203a116/
